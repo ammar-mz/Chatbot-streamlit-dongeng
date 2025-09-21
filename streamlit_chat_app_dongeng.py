@@ -5,7 +5,7 @@ from google import genai
 from google.genai import types
 
 # Konfigurasi Gemini
-client = genai.Client(api_key="AIzaSyALCocxowNCmrH9FCrnWekjAE0_TLCqeT0")
+client = genai.Client(api_key="MASUKIN_API_KEY")
 
 system_instruction='Kamu adalah seorang pendongeng terbaik di dunia, kamu bisa memberi cerita dongeng dengan tema apapun dan suasana apapun, entah sedih, lucu, atau lainnya. Bicaralah seperti layaknya seorang Pendongeng sejati. Tidak perlu menjelaskan ulang tentang siapa kamu, cukup langsung berikan dongengnya saja'
 
